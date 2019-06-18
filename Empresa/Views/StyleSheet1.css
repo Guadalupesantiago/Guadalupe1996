@@ -1,0 +1,225 @@
+﻿* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+
+
+header {
+    width: 100%;
+    height: 60px;
+    background: black;
+}
+
+.container-header {
+    width: 100%;
+    max-width: 1200px;
+}
+
+.logo-title {
+    display: flex;
+}
+
+
+    .logo-title img {
+        width: 50px;
+        height: 50px;
+        margin-top: 5px;
+        margin-left: 20px;
+    }
+
+    .logo-title h4 {
+        color: white;
+        font-weight: 100;
+        margin-left: 15px;
+        margin-top: 20px;
+        font-weight: bolder;
+        font-size: 30px;
+    }
+
+/*menu */
+
+.menu > li {
+    display: inline-block;
+    margin-top: 10px;
+    margin-left: 55px;
+}
+
+    .menu > li a {
+        display: block;
+        padding: 15px 20px;
+        color: white;
+        font-family: 'Open sans';
+        text-decoration: none;
+    }
+
+.menu li a:hover {
+    color: blue;
+    transition: all.3s;
+}
+/* submenu*/
+
+
+.submenu {
+    position: absolute;
+    background: #333333;
+    display: none;
+}
+
+    .submenu li a {
+        display: block;
+        padding: 15px;
+        color: #fff;
+        font-family: 'Open  sans';
+        text-decoration: none;
+    }
+
+.menu li:hover .submenu {
+    display: block;
+}
+
+
+
+
+/*PORTADA*/
+
+
+.container-portada {
+    width: 100%;
+    height: 400px;
+    background-image: url(../imagenes/chicas.jpg);
+    background-size: 130%;
+    animation: movimiento 10s infinite linear alternate;
+}
+
+@keyframes movimiento {
+    from {
+        background-position: top left;
+    }
+
+    to {
+        background-position: top right;
+    }
+}
+
+
+.container-details {
+    width: 100%;
+    max-width: 12000px;
+    position: relative;
+    margin: auto;
+}
+
+.details {
+    width: 100%;
+    max-width: 900px;
+    position: relative;
+    top: 400px;
+    color: brown;
+}
+
+    .details h1 {
+        font-size: 50px;
+        font-weight: 100;
+        color: red;
+        font-weight: bolder;
+        position: center;
+        text-align: center;
+    }
+
+    .details p {
+        margin-top: 20px;
+        font-size: 20px;
+        color: white;
+        text-align: center;
+    }
+
+    .details img {
+        margin-top: 10px;
+        margin-left: 10px;
+    }
+
+    .details button {
+        padding: 10px 20px;
+        font-size: 16px;
+        background: left;
+        color: red;
+        margin: 20px;
+        font-weight: bolder;
+    }
+
+        .details button:hover {
+            background: white;
+        }
+
+
+/*ROPA*/
+
+
+.container-ropa {
+    margin-top: 400px;
+    margin-left: 150px;
+}
+
+    .container-ropa h4 {
+        font-size: 15px;
+        margin-top: -190px;
+        color: white;
+        font-weight: bolder;
+        margin-left: 250px;
+        font-weight: bolder;
+    }
+
+.container-ropa2 {
+    margin-top: 120px; /*arriba*/
+    margin-left: 150px; /*abajo*/
+}
+
+    .container-ropa2 h4 {
+        font-size: 15px;
+        margin-top: -190px;
+        color: white;
+        font-weight: bolder;
+        margin-left: 250px;
+        font-weight: bolder;
+    }
+
+.container-ropa3 {
+    margin-top: 120px; /*arriba*/
+    margin-left: 150px; /*abajo*/
+}
+
+    .container-ropa3 h4 {
+        font-size: 15px;
+        margin-top: -190px;
+        color: white;
+        font-weight: bolder;
+        margin-left: 250px;
+        font-weight: bolder;
+    }
+
+.container-ropa4 {
+    margin-top: 120px; /*arriba*/
+    margin-left: 150px; /*abajo*/
+}
+
+    .container-ropa4 h4 {
+        font-size: 15px;
+        margin-top: -190px;
+        color: white;
+        font-weight: bolder;
+        margin-left: 250px;
+        font-weight: bolder;
+    }
+
+/*PROMOCIONES*/
+.promo-title {
+    margin-top: 200px;
+    margin-left: 10px;
+}
+
+.rebajas {
+    margin-top: 200px;
+    margin-left: 10px;
+}
